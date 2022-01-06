@@ -4,7 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Karla', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    font-family: 'Karla', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 20px;
 }
@@ -43,10 +43,10 @@ h3 {
 }
 
 a {
-  color: black;
+  color: rgb(157, 255, 0);
 
   &:visited {
-    color: black;
+    color: rgb(166, 255, 0);
   }
 }
 
@@ -102,13 +102,13 @@ footer {
 }
 
 .react-multiple-carousel__arrow {
-  background: rgb(255 255 255) !important;
+  background: #00ffea !important;
   box-shadow: 2px 2px 0px rgb(0 0 0);
   font-weight: 800;
 }
 
 .react-multiple-carousel__arrow::before {
-  color: #000 !important;
+  color: rgb(0, 211, 35) !important;
 }
 
 .bg-shadow-movie {
